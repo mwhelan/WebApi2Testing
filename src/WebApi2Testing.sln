@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hosts", "hosts", "{5B14405A-02D3-43FB-AA52-857204D1CCF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{87827ED5-677E-45C1-8B9B-F035CE34C007}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BF0EC596-4567-454A-81D0-FCBCC6121686}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableWebApi.Api", "TestableWebApi.Api\TestableWebApi.Api.csproj", "{147CA547-C4B8-467D-B416-34DA9E94F878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableWebApi.Tests", "TestableWebApi.Tests\TestableWebApi.Tests.csproj", "{B399B878-8F8C-41ED-AAF3-2A33C953C533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableWebApi.Domain", "TestableWebApi.Core\TestableWebApi.Domain.csproj", "{22B94816-3AC7-4E63-971F-707B3AF67100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableWebApi.Hosts.WebHost", "TestableWebApi.Hosts.WebHost\TestableWebApi.Hosts.WebHost.csproj", "{BBC7DF45-E0E5-4606-9FBC-AECB5C4FD52B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableWebApi.Hosts.KatanaHost", "TestableWebApi.Hosts.KatanaHost\TestableWebApi.Hosts.KatanaHost.csproj", "{E6ABC304-BF45-4C26-B699-91D0333D467B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableWebApi.Tests.Unit", "TestableWebApi.Tests.Unit\TestableWebApi.Tests.Unit.csproj", "{7C4B51F2-D2B2-462B-A98E-B9C04B2BC4CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AF5B307D-DE1E-4151-9ADC-970E7B97518D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableWebApi.Tests.Acceptance", "TestableWebApi.Tests.Acceptance\TestableWebApi.Tests.Acceptance.csproj", "{149DB07D-A7B5-4E88-A622-B58AB16CA31E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestableWebApi.Infrastructure", "TestableWebApi.Infrastructure\TestableWebApi.Infrastructure.csproj", "{E68ECDED-C9C8-451F-AA41-4D919FD7A3D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{147CA547-C4B8-467D-B416-34DA9E94F878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147CA547-C4B8-467D-B416-34DA9E94F878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147CA547-C4B8-467D-B416-34DA9E94F878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147CA547-C4B8-467D-B416-34DA9E94F878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B399B878-8F8C-41ED-AAF3-2A33C953C533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B399B878-8F8C-41ED-AAF3-2A33C953C533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B399B878-8F8C-41ED-AAF3-2A33C953C533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B399B878-8F8C-41ED-AAF3-2A33C953C533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B94816-3AC7-4E63-971F-707B3AF67100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B94816-3AC7-4E63-971F-707B3AF67100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B94816-3AC7-4E63-971F-707B3AF67100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B94816-3AC7-4E63-971F-707B3AF67100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC7DF45-E0E5-4606-9FBC-AECB5C4FD52B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC7DF45-E0E5-4606-9FBC-AECB5C4FD52B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC7DF45-E0E5-4606-9FBC-AECB5C4FD52B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC7DF45-E0E5-4606-9FBC-AECB5C4FD52B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6ABC304-BF45-4C26-B699-91D0333D467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6ABC304-BF45-4C26-B699-91D0333D467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6ABC304-BF45-4C26-B699-91D0333D467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6ABC304-BF45-4C26-B699-91D0333D467B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4B51F2-D2B2-462B-A98E-B9C04B2BC4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4B51F2-D2B2-462B-A98E-B9C04B2BC4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4B51F2-D2B2-462B-A98E-B9C04B2BC4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4B51F2-D2B2-462B-A98E-B9C04B2BC4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149DB07D-A7B5-4E88-A622-B58AB16CA31E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149DB07D-A7B5-4E88-A622-B58AB16CA31E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149DB07D-A7B5-4E88-A622-B58AB16CA31E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149DB07D-A7B5-4E88-A622-B58AB16CA31E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68ECDED-C9C8-451F-AA41-4D919FD7A3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68ECDED-C9C8-451F-AA41-4D919FD7A3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68ECDED-C9C8-451F-AA41-4D919FD7A3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68ECDED-C9C8-451F-AA41-4D919FD7A3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBC7DF45-E0E5-4606-9FBC-AECB5C4FD52B} = {5B14405A-02D3-43FB-AA52-857204D1CCF4}
+		{E6ABC304-BF45-4C26-B699-91D0333D467B} = {5B14405A-02D3-43FB-AA52-857204D1CCF4}
+		{147CA547-C4B8-467D-B416-34DA9E94F878} = {87827ED5-677E-45C1-8B9B-F035CE34C007}
+		{22B94816-3AC7-4E63-971F-707B3AF67100} = {87827ED5-677E-45C1-8B9B-F035CE34C007}
+		{E68ECDED-C9C8-451F-AA41-4D919FD7A3D2} = {87827ED5-677E-45C1-8B9B-F035CE34C007}
+		{B399B878-8F8C-41ED-AAF3-2A33C953C533} = {BF0EC596-4567-454A-81D0-FCBCC6121686}
+		{7C4B51F2-D2B2-462B-A98E-B9C04B2BC4CC} = {BF0EC596-4567-454A-81D0-FCBCC6121686}
+		{149DB07D-A7B5-4E88-A622-B58AB16CA31E} = {BF0EC596-4567-454A-81D0-FCBCC6121686}
+	EndGlobalSection
+EndGlobal
